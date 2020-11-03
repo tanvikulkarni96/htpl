@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+.main-navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
 .main-slider {
   padding-left: 20px;
   padding-right: 20px;

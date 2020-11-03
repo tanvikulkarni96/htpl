@@ -2,12 +2,13 @@ import React, { PureComponent } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import CardDeck from "react-bootstrap/CardDeck";
+import image from "../images/sample.png";
 
 export const Cards = () => {
   return (
     <CardDeck className="card-deck">
       <Card bg="secondary" text="white">
-        <Card.Img variant="top" src="../images/sample.png" />
+        <Card.Img variant="top" src={image} />
         <Card.Body>
           <Card.Title>Co Working Spaces</Card.Title>
           <Card.Text>One Line info about co working spaces.</Card.Text>
@@ -15,7 +16,7 @@ export const Cards = () => {
         </Card.Body>
       </Card>
       <Card bg="secondary" text="white">
-        <Card.Img variant="top" src="../images/sample.png" />
+        <Card.Img variant="top" src={image} />
         <Card.Body>
           <Card.Title>AR/VR</Card.Title>
           <Card.Text>Information about AR/VR services.</Card.Text>
@@ -23,7 +24,7 @@ export const Cards = () => {
         </Card.Body>
       </Card>
       <Card bg="secondary" text="white">
-        <Card.Img variant="top" src="../images/sample.png" />
+        <Card.Img variant="top" src={image} />
         <Card.Body>
           <Card.Title>Speciality Serivces</Card.Title>
           <Card.Text>Information about apeciality services</Card.Text>

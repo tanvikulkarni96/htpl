@@ -1,5 +1,8 @@
 import React, { PureComponent } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import slider1 from "../images/slider1.png";
+import slider2 from "../images/slider2.jpg";
+import slider3 from "../images/slider3.jpg";
 
 export const Slider = () => {
   return (
@@ -7,7 +10,7 @@ export const Slider = () => {
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
-          src="../images/slider1.png"
+          src={slider1}
           alt="First slide"
           height="400px"
           width="50px"
@@ -19,7 +22,7 @@ export const Slider = () => {
       <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
-          src="../images/slider2.jpg"
+          src={slider2}
           alt="Third slide"
           height="400px"
           width="50px"
@@ -31,7 +34,7 @@ export const Slider = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../images/slider3.jpg"
+          src={slider3}
           alt="Third slide"
           height="400px"
           width="50px"

@@ -1,7 +1,7 @@
 import "./App.css";
-import { Header } from "./components/layouts/Header";
-import { Content } from "./components/layouts/Content";
-import { Footer } from "./components/layouts/Footer";
+import { Header } from "./components/Header";
+import { Content } from "./components/Content";
+import { Footer } from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
