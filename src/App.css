@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.main-slider {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+
+.card-deck {
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-footer {
+  margin-top: 50px;
+  background-color: rgb(44, 42, 42);
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  bottom: 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer-bottom {
+  background-color: rgb(44, 42, 42);
+  color: beige;
+  align-content: center;
+}
